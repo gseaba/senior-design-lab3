@@ -32,6 +32,7 @@ senior-design-lab3/
 │   ├── base.html       # Shared layout template
 │   ├── index.html      # Portfolio homepage
 │   ├── login.html      # Secure login page with error handling
+|   ├── profile.html    # Shared layout for each profile
 │   └── protected.html  # The Message Vault
 └── lab3.service        # Systemd unit file for production auto-start
 ```
