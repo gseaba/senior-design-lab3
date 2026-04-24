@@ -34,6 +34,7 @@ senior-design-lab3/
 │   ├── login.html      # Secure login page with error handling
 │   └── protected.html  # The Message Vault
 └── lab3.service        # Systemd unit file for production auto-start
+```
 
 ## Installation & Deployment
 
