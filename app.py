@@ -23,7 +23,7 @@ def home():
 def profile(name):
     # Basic data for the two of you
     members = {
-        'garrett': {'name': 'Garrett Seaba', 'bio': 'Electrical Engineering student.', 'interests': ['Networking', 'Software', 'Computer Architecture'], 'img': 'default-image.png'},
+        'garrett': {'name': 'Garrett Seaba', 'bio': 'Electrical Engineering student.', 'interests': ['Networking', 'Software', 'Computer Architecture'], 'img': 'gdog.jpg'},
         'bo': {'name': 'Bowen Davis', 'bio': 'Electrical Engineering student.', 'interests': ['IoT', 'Web Dev'], 'img': 'default-image.png'},
         'jane': {'name': 'Jane Kim', 'bio': 'Electrical Engineering student', 'interests': ['IoT', 'Web Dev'], 'img': 'default-image.png'}
     }
