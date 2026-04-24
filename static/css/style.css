@@ -1,0 +1,49 @@
+:root {
+    --iowa-gold: #FFCD00;
+    --black: #000000;
+    --dark-grey: #1a1a1a;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    border-bottom: 2px solid var(--iowa-gold);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+a { color: var(--iowa-gold); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.card {
+    background: var(--dark-grey);
+    border-left: 5px solid var(--iowa-gold);
+    padding: 20px;
+    margin: 10px 0;
+}
+
+input, textarea {
+    background: #333;
+    color: white;
+    border: 1px solid var(--iowa-gold);
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+button {
+    background: var(--iowa-gold);
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
