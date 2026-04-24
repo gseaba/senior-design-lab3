@@ -1,9 +1,3 @@
-import os
-
-readme_content = """# Senior Design Lab 3: Secure Portfolio & Message Vault
-
-A full-stack, self-hosted web application developed for the Senior Design Laboratory. This project demonstrates a secure, "sovereign infrastructure" approach to web development, utilizing a Python/Flask backend, an Nginx reverse proxy, and systemd process management.
-
 ## Overview
 This application serves as a professional portfolio featuring dynamic user profiles and a secure "Message Vault." It adheres to the **KISS (Keep It Simple, Stupid)** engineering philosophy—prioritizing minimalist, transparent configurations over complex automated tools.
 
