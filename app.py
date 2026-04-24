@@ -2,12 +2,11 @@ from flask import Flask, render_template, request, session, redirect, url_for
 import hashlib
 import sqlite3
 from datetime import datetime
+import os
 
 app = Flask(__name__)
-app.secret_key = 'iowa_engineering_secret' # Change this for production
+app.secret_key = os.environ.get('FLASK_SECRET_KEY')
 
-# Password hash for: Spring2026Lab3
-# Generate your own using update_pass.py
 STORED_HASH = "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
 
 def get_db():
