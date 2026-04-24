@@ -1,5 +1,5 @@
 ## Overview
-This application serves as a professional portfolio featuring dynamic user profiles and a secure "Message Vault." It adheres to the **KISS (Keep It Simple, Stupid)** engineering philosophy—prioritizing minimalist, transparent configurations over complex automated tools.
+This application serves as a professional portfolio featuring dynamic user profiles and a secure "Message Vault."
 
 ### Key Features
 - **Dynamic Profiles:** User information and bios served via Flask and SQLite.
