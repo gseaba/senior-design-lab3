@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 app.secret_key = os.environ.get('FLASK_SECRET_KEY')
 
-STORED_HASH = "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
+STORED_HASH = "cc2c24accc2ae9470e67fc2e4a8834daa9f1c642694898c58e33369667bdc71a"
 
 def get_db():
     conn = sqlite3.connect('data/messages.db')
