@@ -22,7 +22,7 @@ senior-design-lab3/
 ├── app.py              # Main Flask application logic
 ├── init_db.py          # Database initialization script
 ├── update_pass.py      # Utility for generating SHA-256 password hashes
-├── data
+├── data/
     └── messages.db     # SQLite database file
 ├── requirements.txt    # Python dependency manifest
 ├── static/
