@@ -23,7 +23,7 @@ def profile(name):
     # Basic data for the two of you
     members = {
         'garrett': {'name': 'Garrett Seaba', 'bio': 'Electrical Engineering student.', 'interests': ['Networking', 'Software', 'Computer Architecture'], 'img': 'gdog.jpg'},
-        'bo': {'name': 'Bowen Davis', 'bio': 'Electrical Engineering student.', 'interests': ['IoT', 'Web Dev'], 'img': 'default-image.png'},
+        'bo': {'name': 'Bowen Cael Davis', 'bio': 'Electrical Engineering student.', 'interests': ['Circuitry', 'Web Dev', 'Architecture', 'Power Systems', 'Problem Solving'], 'img': 'bdog.png'},
         'jane': {'name': 'Jane Kim', 'bio': 'Electrical Engineering student', 'interests': ['IoT', 'Web Dev'], 'img': 'default-image.png'}
     }
     data = members.get(name.lower())
