@@ -24,7 +24,7 @@ def profile(name):
     members = {
         'garrett': {'name': 'Garrett Seaba', 'bio': 'Electrical Engineering student.', 'interests': ['Networking', 'Software', 'Computer Architecture'],'contactInfo': 'myemail@someemail.com', 'img': 'gdog.jpg'},
         'bo': {'name': 'Bowen Cael Davis', 'bio': 'Electrical Engineering student.', 'interests': ['Circuitry', 'Web Dev', 'Architecture', 'Power Systems', 'Problem Solving'],'contactInfo': 'myemail@someemail.com', 'img': 'bdog.jpeg'},
-        'jane': {'name': 'Jane Kim', 'bio': 'Electrical Engineering student', 'interests': ['IoT', 'Web Dev'],'contactInfo': 'myemail@someemail.com', 'img': 'default-image.png'}
+        'jane': {'name': 'Jane Kim', 'bio': 'Electrical Engineering student', 'interests': ['IoT', 'Web Dev'],'contactInfo': 'myemail@someemail.com', 'img': 'jdog.jpg'}
     }
     data = members.get(name.lower())
     if not data: return "Member not found", 404
